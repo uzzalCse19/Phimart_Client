@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExpertCard = ({expert,odAdd}) => {
+const ExpertCard = ({expert,onAdd}) => {
     return (
         <div className="bg-white p-4 rounded shadow-md text-center">
             <img src={expert.img} alt={expert.name} className="w-24 h-24 mx-auto rounded-full mb-2" />
